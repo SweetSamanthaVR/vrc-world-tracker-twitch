@@ -149,9 +149,9 @@ const startMonitoring = () => {
              * Pass an empty callback function for now (this can be defined later)
              */
             monitorLogFile(latestLogFile, logDir, (world, url) => {
-                /*
-                 * Callback functionality can be implemented here
-                 */
+                if (world && world !== lastWorldDetected) {
+                    lastWorldDetected = world;
+                }
             });
         } else {
             /*
