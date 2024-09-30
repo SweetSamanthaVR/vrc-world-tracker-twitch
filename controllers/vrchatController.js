@@ -118,6 +118,13 @@ const monitorLogFile = (logFile, logDir, callback) => {
 };
 
 /*
+ * This variable stores the last detected world name.
+ * It is initialized as an empty string to indicate that no world has been detected yet.
+ */
+
+let lastWorldDetected = '';
+
+/*
  * Function to start monitoring the latest log file in the specified log directory
  */
 const startMonitoring = () => {
