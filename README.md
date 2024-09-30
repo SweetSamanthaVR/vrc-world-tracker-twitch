@@ -5,7 +5,7 @@ This project integrates VRChat with Twitch, allowing users to monitor and retrie
 ## Features
 
 - Monitors VRChat activity by reading log files.
-- Provides room information via a web interface and a Twitch chat command.
+- Provides world information via a web interface and a Twitch chat command.
 - Sends updates to Twitch chat when specific commands are triggered.
 
 ## Requirements
