@@ -51,7 +51,7 @@ In your Twitch chat, you can use the following command to get the current VRChat
 
 ## Monitoring Logs
 
-The application will automatically monitor VRChat logs for updates, extracting world information whenever you enter a new world in VRChat.
+Typically, fetching world information from the VRChat API is the go-to method. However, due to the limitation of the VRChat API allowing only one request every 60 seconds, real-time updates are not possible. To provide a more immediate experience, this application monitors the VRChat logs on your computer for updates, extracting world information whenever you enter a new world in VRChat in real time.
 
 ## License
 
